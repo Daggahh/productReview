@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    background-color: white;
+    max-width: 700px;
+    display: flex;
+    margin:auto;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.imgmob {
+    display: none;
+}
+
+.imgdes {
+    max-width:350px;
+    border-radius: 10px 0 0 10px;
+}
+
+.prodD{
+    width: 350px;
+}
+
+.prodD h4{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    color: grey;
+    line-height: 150%;
+    letter-spacing: 5px;
+    margin: 30px 0px 0px 30px;
+    font-weight: 500;
+}
+
+.prodD h2{
+    font-family: Fraunces;
+    font-size: 32px;
+    max-width: 200px;
+    margin: 20px 0 30px 30px;
+    font-weight: 700;
+}
+
+.prodD p{
+    font-family: Montserrat;
+    color: grey;
+    line-height: 200%;
+    font-size: 14px;
+    max-width: 260px;
+    margin: 0 0 30px 30px;
+    font-weight: 700;
+}
+
+.moni{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 300px;
+    margin: 0px 0 30px 30px;
+}
+
+.moni h2 {
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%);
+    font-size: 32px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.moni p{
+    font-family: Montserrat;
+    color: hsla(212, 21%, 14%, 0.596);
+    text-decoration-line: line-through;
+    line-height: 200%;
+    margin: auto 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+button{
+    border-radius: 10px;
+    margin-left:30px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+button img {
+    width: 20px;
+}
+
+#button{
+    font-family: Montserrat;
+    color: hsla(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(158, 67%, 14%);
+}
+
+@media (max-width: 425px) {
+.container{
+    background-color: white;
+    max-width: 350px;
+    display: flex;
+    margin:auto;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.imgdes{
+    display: none;
+}
+
+.imgmob {
+    display: block;
+    border-radius: 10px 10px 0 0;
+    width: 350px;
+}
+
+.prodD{
+    width: 350px;
+}
+
+.prodD h4{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    color: grey;
+    line-height: 150%;
+    letter-spacing: 5px;
+    margin: 30px 0px 0px 30px;
+    font-weight: 500;
+}
+
+.prodD h2{
+    font-family: Fraunces;
+    font-size: 32px;
+    max-width: 300px;
+    margin: 20px 0 20px 30px;
+    font-weight: 700;
+}
+
+.prodD p{
+    font-family: Montserrat;
+    color: grey;
+    line-height: 200%;
+    font-size: 14px;
+    max-width: 260px;
+    margin: 0 0 20px 30px;
+    font-weight: 600;
+}
+
+.moni{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 300px;
+    margin: 0px 0 20px 30px;
+}
+
+.moni h2 {
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%);
+    font-size: 32px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.moni p{
+    font-family: Montserrat;
+    color: hsla(212, 21%, 14%, 0.596);
+    text-decoration-line: line-through;
+    line-height: 200%;
+    margin: auto 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+button{
+    border-radius: 10px;
+    margin-left:30px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+button img {
+    width: 20px;
+}
+
+#button{
+    font-family: Montserrat;
+    color: hsla(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+}
